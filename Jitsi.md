@@ -32,11 +32,11 @@ sudo ufw status verbose
 
 Check logs
 ```bash
-	cat /var/log/jitsi/jvb.log
-	cat /var/log/jitsi/jicofo.log
-	cat /var/log/prosody/prosody.log
-	cat /var/log/prosody/prosody.err
-	cat /var/log/apache2/access.log
-	cat /var/log/apache2/error.log
+cat /var/log/jitsi/jvb.log
+cat /var/log/jitsi/jicofo.log
+cat /var/log/prosody/prosody.log
+cat /var/log/prosody/prosody.err
+cat /var/log/apache2/access.log
+cat /var/log/apache2/error.log
 ```
 
