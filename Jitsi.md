@@ -40,3 +40,9 @@ cat /var/log/apache2/access.log
 cat /var/log/apache2/error.log
 ```
 
+Reset all, more coffee and focus
+```bash
+sudo apt-get --purge remove jitsi-videobridge2 jitsi-meet jitsi-meet-prosody jitsi-meet-web jitsi-meet-web-config jicofo jitsi-videobridge
+sudo rm /var/lib/dpkg/info rm jitsi-videobridge2.list
+sudo rm /var/lib/dpkg/info rm jitsi-videobridge2.postrm
+```
